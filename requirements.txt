@@ -1,0 +1,14 @@
+# TZOOTZ MIDI Latent Mixer Requirements
+# ComfyUI dependencies are assumed to be already installed
+
+# MIDI processing
+mido>=1.2.10
+python-rtmidi>=1.4.0
+
+# Audio/MIDI utilities (optional but recommended)
+# music21>=8.1.0  # Uncomment if advanced music analysis is needed
+
+# Note: The following are typically already available in ComfyUI:
+# torch>=1.13.0
+# numpy>=1.21.0
+# pillow>=8.3.0 
